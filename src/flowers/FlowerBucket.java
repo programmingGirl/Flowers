@@ -1,9 +1,13 @@
+package flowers;
+
+import Orders.Item;
+
 import java.util.ArrayList;
 
 /**
  * Created by Mariya on 18.10.2016.
  */
-public class FlowerBucket implements Comparable<FlowerBucket>{
+public abstract class FlowerBucket extends Item {
 
     private int insertIndex = 0;
     private int defaultLength = 10;
@@ -48,8 +52,8 @@ public class FlowerBucket implements Comparable<FlowerBucket>{
 
     }
 
-    @Override
-    public int compareTo(FlowerBucket o){
-        return 0;
-    }
+    //@Override
+    //public int compareTo(FlowerBucket o){
+        //return 0;
+
 }

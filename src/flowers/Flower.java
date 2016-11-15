@@ -1,10 +1,12 @@
+package flowers;
+
 /**
  * Created by Mariya on 11.10.2016.
  */
-abstract public class Flower {
+public abstract  class Flower {
     // 1L - to make 1 long
     // 1f - to make 1 double
-    protected  FlowerSpec spec;
+    protected FlowerSpec spec;
 
     public void setType(String type) {
         spec.setType(type);

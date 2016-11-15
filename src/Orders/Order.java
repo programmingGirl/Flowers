@@ -38,6 +38,7 @@ public class Order extends Observable {
             for (Observer obs: observers){
                 obs.update(this, items);
             }
+            delivery.deliver(items);
         }
 
     }
