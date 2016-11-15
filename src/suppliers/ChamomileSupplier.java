@@ -15,7 +15,7 @@ public class ChamomileSupplier implements Observer {
         for (Item it: items){
             FlowerBucket bckt = (FlowerBucket)it;
             FlowerSpec sp = new FlowerSpec();
-            System.out.println("Sent request for: " + bckt.search(sp).length + "tulip.");
+            System.out.println("Sent request for: " + bckt.search(sp).length() + "tulip.");
 
         }
     }

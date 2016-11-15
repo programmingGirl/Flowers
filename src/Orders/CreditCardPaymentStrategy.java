@@ -6,9 +6,8 @@ import java.util.Scanner;
 public class CreditCardPaymentStrategy implements IPayment {
 
     @Override
-    public double pay(double price) {
-        System.out.println("Enter credit card number:");
-        //String s = sc.nextLine();
-        return 0;
+    public void pay(double price) {
+        System.out.println("Your order is payed by a credit card.");
+
     }
 }

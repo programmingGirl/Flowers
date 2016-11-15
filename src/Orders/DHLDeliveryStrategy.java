@@ -8,7 +8,7 @@ import java.util.LinkedList;
 public class DHLDeliveryStrategy implements IDelivery {
 
     @Override
-    public LinkedList deliver(LinkedList items) {
-        return null;
+    public void deliver(LinkedList items) {
+        System.out.println("We will deliver your order by DHL.");
     }
 }

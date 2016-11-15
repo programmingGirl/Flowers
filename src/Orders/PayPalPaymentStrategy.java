@@ -7,7 +7,7 @@ public class PayPalPaymentStrategy implements IPayment{
 
 
     @Override
-    public double pay(double price) {
-        return 0;
+    public void pay(double price) {
+        System.out.println("Your order is payed with PayPal.");
     }
 }

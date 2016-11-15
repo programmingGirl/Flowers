@@ -5,10 +5,11 @@ package flowers;
  */
 public class FlowerSpec {
     protected FlowerColor color = FlowerColor.GREEN;   // green color is default color
-    protected double length = 0;
+    public double length = 0;
     protected boolean fresh = true;
     protected double price = 0;
     protected String type = "Just a flower";
+
 
     public String getType(){return type;}
     public void setType(String type) {this.type = type;}

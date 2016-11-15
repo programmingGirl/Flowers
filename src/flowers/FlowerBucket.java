@@ -3,14 +3,15 @@ package flowers;
 import Orders.Item;
 
 import java.util.ArrayList;
-
 /**
  * Created by Mariya on 18.10.2016.
  */
-public abstract class FlowerBucket extends Item {
+
+public class FlowerBucket extends Item {
 
     private int insertIndex = 0;
     private int defaultLength = 10;
+    public int length = 0;
     private FlowerSpec[] a = new FlowerSpec[defaultLength];
     public String toString() {
         String s = "";
@@ -51,7 +52,15 @@ public abstract class FlowerBucket extends Item {
         return tmp;
 
     }
+    public void search(FlowerSpec sp){
 
+    }
+
+
+    @Override
+    public double getPrice() {
+        return 0;
+    }
     //@Override
     //public int compareTo(FlowerBucket o){
         //return 0;

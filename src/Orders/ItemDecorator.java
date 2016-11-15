@@ -3,11 +3,8 @@ package Orders;
 /**
  * Created by Mariya on 07.11.2016.
  */
-abstract class ItemDecorator {
-    Item itm;
+abstract public class ItemDecorator extends Item{
+    Item item;
 
-    public ItemDecorator(Item itm){
-
-    }
-    abstract void getDescription();
+    abstract String getDescription();
 }

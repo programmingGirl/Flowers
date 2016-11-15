@@ -7,5 +7,5 @@ import java.util.LinkedList;
  */
 public interface IDelivery {
 
-    LinkedList deliver(LinkedList items);
+    public void deliver(LinkedList items);
 }

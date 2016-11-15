@@ -4,8 +4,10 @@ package Orders;
  * Created by Mariya on 07.11.2016.
  */
 public abstract class Item {
-    public void getDescription(){
+    double price;
+    String descript;
 
-    }
-    abstract double price();
+    abstract String getDescription();
+
+    abstract double getPrice();
 }
